@@ -1,0 +1,116 @@
+html{
+    height:100%
+}
+body{
+    height:100%;
+    margin:0px;
+    font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#top{
+    height:75%;
+    background-color: #332d2d;
+    display:flex;
+    
+    
+    flex-direction:column;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:50px;
+    margin-left:10px;
+    padding:25px;
+}
+#logo{
+    width:100px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    width:33%;
+}
+.navLink{
+    text-decoration:none;
+    color:#c4c4c4;
+    font-size: 18px;
+    text-shadow: black 0px 5px 5px;
+}
+.navLink:hover{
+    color:#8c8c8c
+}
+#topRow{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    padding-bottom:25px;
+}
+#topCol{
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items:start;
+    width:45%
+}
+#name{
+    color:#e6e6e6;
+    font-size:48px;
+    margin:0px;
+    font-weight:bold;
+    text-shadow: black 0px 5px 5px;
+}
+#shortLine{
+    width:55%;
+    border: solid 2px #8a2727;
+    margin-left:0px;
+    margin-right:0px;
+    box-shadow: black 0px 4px 5px;
+}
+#shortAbout{
+    color:#e6e6e6;
+    width:60%;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-size:14px;
+}
+#moreAbout{
+    text-decoration:underline;
+    font-weight:bold;
+    color:gold;
+    font-size:18px;
+    text-shadow: black 0px 5px 5px;
+}
+#moreAbout:hover{
+    color: goldenrod;
+}
+#portrait{
+    width:22%;
+    border: solid;
+    border-color:rgba(0,0,0,0);
+    border-radius:200px 200px 200px 200px;
+}
+
+footer{
+    height:25%;
+    background-color: #1f1b1b;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.footerbox{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.plug{
+    color:lightblue;
+    margin-top: 10px;
+}
