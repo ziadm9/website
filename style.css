@@ -27,11 +27,7 @@ header{
     width:100px;
 }
 
-@media(max-width: 768px){
-    #logo{
-        width:50px;
-    }
-}
+
 
 nav{
     display:flex;
@@ -120,4 +116,41 @@ footer{
 .plug{
     color:lightblue;
     margin-top: 10px;
+}
+
+@media(max-width: 768px){
+    #logo{
+        width:50px;
+        margin-right:50px;
+    }
+    #top{
+        padding:10px;
+    }
+    nav div{
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .navLink{
+        font-size:15px;
+    }
+    header{
+        justify-content:start;
+        margin-right:20px;
+        margin-left:20px;
+    }
+    #name{
+        font-size:24px;
+    }
+    #shortAbout{
+        font-size:14px;
+    }
+    #moreAbout{
+        font-size:14px;
+    }
+    #topRow{
+        flex-direction:column;
+    }
+    #topCol{
+        width:100%;
+    }
 }
