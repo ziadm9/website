@@ -26,6 +26,13 @@ header{
 #logo{
     width:100px;
 }
+
+@media(max-width: 768px){
+    #logo{
+        width:50px;
+    }
+}
+
 nav{
     display:flex;
     justify-content:space-between;
