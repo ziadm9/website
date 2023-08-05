@@ -8,7 +8,7 @@ body{
 }
 
 #top{
-    height:75%;
+    height:80%;
     background-color: #332d2d;
     display:flex;
     background:url("images/ocean.jpg");
@@ -58,7 +58,7 @@ nav{
     flex-direction:column;
     justify-content: start;
     align-items:start;
-    width:45%
+    width:60%
 }
 #name{
     color:#e6e6e6;
@@ -82,6 +82,10 @@ nav{
     flex-direction:column;
     justify-content: space-between;
     font-size:16px;
+    background-color:rgba(50,50,50,0.5);
+    border: solid rgba(0,0,0,0,0);
+    border-radius: 10px 10px 10px 10px;
+    padding:5px;
 }
 #moreAbout{
     text-decoration:underline;
@@ -94,13 +98,13 @@ nav{
     color: goldenrod;
 }
 #portrait{
-    width:15%;
+    width:20%;
     border: double 3px black;
     
 }
 
 footer{
-    height:25%;
+    height:20%;
     background-color: #1f1b1b;
     display:flex;
     justify-content:space-evenly;
@@ -119,19 +123,18 @@ footer{
     color:lightblue;
     margin-top: 10px;
 }
-
-@media(max-width: 600px){
+nav div{
+        padding:5px;
+}
+@media(max-width: 768px){
     #logo{
         width:50px;
     }
     #top{
         padding:10px;
         height:90%;
-        
     }
-    nav div{
-        padding:5px;
-    }
+    
     nav{
         width:auto
     }
@@ -149,10 +152,6 @@ footer{
     #shortAbout{
         font-size:14px;
         width:100%;
-        background-color:rgba(50,50,50,0.5);
-        border: solid rgba(0,0,0,0,0);
-        border-radius: 10px 10px 10px 10px;
-        padding:5px;
         display:inline
     }
     #moreAbout{
@@ -178,6 +177,7 @@ footer{
         width:100%;
         margin-top:5px;
         max-width:160px;
+        align-self:center;
     }
     .footerbox img{
         width:35px;
