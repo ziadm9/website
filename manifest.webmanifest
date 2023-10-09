@@ -1,0 +1,17 @@
+{
+  "name": "Ziad's Website",
+  "short_name": "Z",
+  "description": "website",
+  "scope": "/website/",
+  "start_url": "/website/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/website/assets/logo.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
