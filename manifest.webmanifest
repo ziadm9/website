@@ -9,7 +9,7 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/website/assets/logo.png",
+        "src": "/website/images/websiteLogoTransparent.png",
         "type": "image/png",
         "sizes": "700x700"
       }
